@@ -1,0 +1,3 @@
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/feladat0/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/feladat0/cmake-build-debug/CMakeFiles/feladat0.dir
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/feladat0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
