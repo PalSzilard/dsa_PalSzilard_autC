@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor2/lab1_1/gyakorlat1.h
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor2/lab1_1/main.c
+stdio.h
+-
+gyakorlat1.h
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor2/lab1_1/gyakorlat1.h
+
