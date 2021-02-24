@@ -16,4 +16,6 @@ int parosok(float *t,int n);
 int paratlanok(float *t,int n);
 int pozitivak(float *t,int n);
 int negativak(float *t,int n);
+//4
+void(int *t, n);
 #endif //LAB1_1_GYAKORLAT1_H
