@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\linkersebeseg.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\bin\ar.exe cr CMakeFiles\linkersebeseg.dir/objects.a @CMakeFiles\linkersebeseg.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\linkersebeseg.dir/objects.a -Wl,--no-whole-archive  -o linkersebeseg.exe -Wl,--out-implib,liblinkersebeseg.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\linkersebeseg.dir\linklibs.rsp
