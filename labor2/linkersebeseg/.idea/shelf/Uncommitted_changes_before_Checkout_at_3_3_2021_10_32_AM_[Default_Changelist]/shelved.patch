@@ -1,0 +1,49 @@
+Index: main.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <stdio.h>\r\n#include <time.h>\r\n#include <stdlib.h>\r\n#include \"teszt.h\"\r\n int main() {\r\n     int *t, i, n = 10, ker, m, j;\r\n     srand(time(NULL));\r\n     ker=rand();\r\n     for (i = 0; i < 9; i++)\r\n         for (j = 0; i < n; j++) {\r\n             {   t=(int*)malloc(n*sizeof(int));\r\n                 t[j] = rand();\r\n             }\r\n             printf(\"%lf\\n\",sebesegteszt(t,n,ker));\r\n             free(t);\r\n             n*=10;\r\n         }\r\n     return 0;\r\n\r\n }
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.c b/main.c
+--- a/main.c	(revision 4ea745b0e445c2709c2e9830780b90116322e11e)
++++ b/main.c	(date 1614759711942)
+@@ -7,14 +7,17 @@
+      srand(time(NULL));
+      ker=rand();
+      for (i = 0; i < 9; i++)
+-         for (j = 0; i < n; j++) {
+-             {   t=(int*)malloc(n*sizeof(int));
++         for (j = 0; j < n; j++) {
++            {
++                 t=(int*)malloc(n*sizeof(int));
+                  t[j] = rand();
+-             }
+-             printf("%lf\n",sebesegteszt(t,n,ker));
++            }
++             printf("futatasi ido: %lf\n",sebesegteszt(t,n,ker));
+              free(t);
+              n*=10;
+          }
++
++
+      return 0;
+ 
+  }
+\ No newline at end of file
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Mar 02 18:31 GTB Standard Time\r\n----------------------------------------------------------\r\nEnd testing: Mar 02 18:31 GTB Standard Time\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 4ea745b0e445c2709c2e9830780b90116322e11e)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1614759716253)
+@@ -1,3 +1,3 @@
+-Start testing: Mar 02 18:31 GTB Standard Time
++Start testing: Mar 03 10:21 GTB Standard Time
+ ----------------------------------------------------------
+-End testing: Mar 02 18:31 GTB Standard Time
++End testing: Mar 03 10:21 GTB Standard Time

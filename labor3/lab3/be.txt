@@ -1,0 +1,23 @@
+3
+
+Kiss Kata
+23
+titkarno
+0
+
+Nagy Otto
+45
+adminisztrator
+1
+Gazdasagi Liceum
+8.9
+
+Barabas Delinke
+36
+programozo
+2
+Bolyai Liceum
+9
+Petru Maior
+Matematika
+6
