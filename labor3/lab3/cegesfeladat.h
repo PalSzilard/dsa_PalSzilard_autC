@@ -26,7 +26,7 @@
         HIGH h;
     } CEG;
 
-void create(int n); //helyfoglalas, n a fogprogban olvassuk be
+CEG* create(int n); //helyfoglalas, n a fogprogban olvassuk be
 void read_from_file(FILE *f,CEG*a,int n);
 void print(CEG*a,int n);//kiirja az oszes adatot a kepernyore
 void print_list(CEG*a,int n,int studies);//kiirja a vegzetseg szerint
