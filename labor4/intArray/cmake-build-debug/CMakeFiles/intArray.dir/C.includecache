@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor4/intArray/function.c
+function.h
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor4/intArray/function.h
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+stdbool.h
+-
+math.h
+-
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor4/intArray/function.h
+stdlib.h
+-
+stdio.h
+-
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor4/intArray/main.c
+stdio.h
+-
+stdlib.h
+-
+function.h
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor4/intArray/function.h
+
