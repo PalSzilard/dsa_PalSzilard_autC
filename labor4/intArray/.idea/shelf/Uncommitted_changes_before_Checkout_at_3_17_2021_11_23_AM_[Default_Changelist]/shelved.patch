@@ -1,0 +1,40 @@
+Index: function.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\r\n// Created by Pal on 3/10/2021.\r\n//\r\n\r\n#include \"function.h\"\r\n#include <stdlib.h>\r\n#include <stdio.h>\r\n#include <time.h>\r\n#include <stdbool.h>\r\n#include <math.h>\r\nintArray* createArray(int size){\r\n    intArray *array = (intArray *) malloc(sizeof(intArray));\r\n    if (array == NULL) {\r\n        printf(\"Could not allocate memory\");\r\n        return NULL;\r\n    }\r\n\r\n    array->size = size;\r\n    array->elements = (int *) malloc(array->size * sizeof(int));\r\n\r\n    if (array->elements == NULL) {\r\n        printf(\"Could not allocate memory.\\n\");\r\n        free(array);\r\n        return NULL;} else\r\n\r\n    return array;}\r\nvoid readArray(const char*fileName,intArray* array) {\r\n    FILE *fin = fopen(fileName,\"r\");\r\n    if (fin == NULL)\r\n        printf(\"Could not open file\");\r\n        //return NUll;}\r\n        int size;\r\n        fscanf(fileName,\"%i\", &array->size);\r\n        array = createArray(size);\r\n        for (int i = 0; i < array->size; i++)\r\n            fscanf(fileName, \"%i\", &array->elements[i]);\r\n\r\n    }\r\n    void printArray(intArray *array) {\r\n        for (int j = 0; j < array->size; j++)\r\n        { printf(\"%i \", array[j].elements);}\r\n        printf(\"\\n\");\r\n    }\r\nvoid fillArray(intArray* array,int size,int first,int last){\r\n    srand(time(NULL));\r\n    for (int i=0;i<size;i++)\r\n        array->elements[i]=rand()%(first-last+1)+first;\r\n}\r\nint rendezes(const void*q1,const void* q2){\r\n    int *p1=(int*)q1;\r\n    int *p2=(int*)q2;\r\n    if (*p1>*p2)\r\n        return -1;\r\n    else if (*p1<*p2)\r\n        return 1;\r\n    else return 0;\r\n}\r\nvoid sortArray(intArray* array,int size){\r\n    qsort(array->elements,size, sizeof(int),rendezes);\r\n}\r\n\r\nvoid printArrayToFile(const char*fileName,intArray*array,int size){\r\n    FILE *fout=fopen(fileName,\"w\");\r\n    for (int i;i<size;i++)\r\n    fprintf(fout,\"%i \",array->elements[i]);\r\n\r\n}\r\nvoid findElement(intArray*array, int size, int seek){\r\n    for (int i=0;i<array->size;i++)\r\n    {if (array->elements[i]==seek)\r\n            printf(\"a kereset szam megvan\\n\");\r\n    break;}\r\n    printf(\"nincs meg a keresett szam\\n\");\r\n\r\n}\r\nint minimum(intArray* array, int size){\r\n    int min=array->elements[0];\r\n    for(int i=1;i<array->size;i++)\r\n    {if (array->elements[i]<min)\r\n            min=array->elements[i];}\r\n    return min;\r\n}\r\nint sum(intArray* array){\r\n    int i,sum=0;\r\n    for (i=0;i<array->size;i++)\r\n    {sum+=array->elements[i];}\r\n    return sum;\r\n}\r\ndouble average(intArray* array){\r\n    int i,avg=0;\r\n    for (i=0;i<array->size;i++)\r\n    {avg+=array->elements[i];}\r\n    return avg/array->size;\r\n}\r\nbool primtest(int a){\r\n    int i,k=1;\r\n    for(i=2;i<sqrt(a);i++) {\r\n        if (a%i==0)\r\n            k++;\r\n    }\r\n    if (k==1)\r\n        return true;\r\n    else\r\n        return false;\r\n\r\n}\r\nint primsum(intArray* array){\r\n    int i,sum=0;\r\n    for(int i=1;i<array->size;i++){\r\n        if (primtest(array->elements[i]))\r\n            sum+=array->elements[i];\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/function.c b/function.c
+--- a/function.c	(revision 59288d23dc91428ee6dde1165347dec8eaf1332c)
++++ b/function.c	(date 1615971152699)
+@@ -111,3 +111,13 @@
+             sum+=array->elements[i];
+     }
+ }
++//labor5 kozos feladat
++int sum_number(Matrix** array){
++    int sum=0;
++    for (int i=0;i<array->rows;i++) {
++        for (int j=0;j<array->cols;j++)
++            if((array->data[i][j]<100 && array->data[i][j]>9) || (array->data[i][j]>-100 && array->data[i][j]<-9))
++                ++sum;
++    }
++    return sum;
++}
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Mar 17 07:58 GTB Standard Time\r\n----------------------------------------------------------\r\nEnd testing: Mar 17 07:58 GTB Standard Time\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 59288d23dc91428ee6dde1165347dec8eaf1332c)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1615968512385)
+@@ -1,3 +1,3 @@
+-Start testing: Mar 17 07:58 GTB Standard Time
++Start testing: Mar 17 10:08 GTB Standard Time
+ ----------------------------------------------------------
+-End testing: Mar 17 07:58 GTB Standard Time
++End testing: Mar 17 10:08 GTB Standard Time
