@@ -3,4 +3,4 @@ project(labor6 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(labor6 main.c sorfelstatikus.c sorfelstatikus.h)
+add_executable(labor6 main.c sorfelstatikus.c sorfelstatikus.h veremdinamikus.c veremdinamikus.h sordinamikusan.c sordinamikusan.h)

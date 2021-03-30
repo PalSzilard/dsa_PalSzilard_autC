@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/labor6.dir/main.c.obj"
+  "CMakeFiles/labor6.dir/sordinamikusan.c.obj"
   "CMakeFiles/labor6.dir/sorfelstatikus.c.obj"
+  "CMakeFiles/labor6.dir/veremdinamikus.c.obj"
   "labor6.exe"
   "labor6.exe.manifest"
   "labor6.pdb"

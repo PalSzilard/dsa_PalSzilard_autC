@@ -79,10 +79,22 @@
 		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/main.c">
 			<Option target="labor6"/>
 		</Unit>
+		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/sordinamikusan.c">
+			<Option target="labor6"/>
+		</Unit>
+		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/sordinamikusan.h">
+			<Option target="labor6"/>
+		</Unit>
 		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/sorfelstatikus.c">
 			<Option target="labor6"/>
 		</Unit>
 		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/sorfelstatikus.h">
+			<Option target="labor6"/>
+		</Unit>
+		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/veremdinamikus.c">
+			<Option target="labor6"/>
+		</Unit>
+		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/veremdinamikus.h">
 			<Option target="labor6"/>
 		</Unit>
 		<Unit filename="F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor6/CMakeLists.txt">

@@ -169,6 +169,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/main.c.s
 .PHONY : main.c.s
 
+sordinamikusan.obj: sordinamikusan.c.obj
+
+.PHONY : sordinamikusan.obj
+
+# target to build an object file
+sordinamikusan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/sordinamikusan.c.obj
+.PHONY : sordinamikusan.c.obj
+
+sordinamikusan.i: sordinamikusan.c.i
+
+.PHONY : sordinamikusan.i
+
+# target to preprocess a source file
+sordinamikusan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/sordinamikusan.c.i
+.PHONY : sordinamikusan.c.i
+
+sordinamikusan.s: sordinamikusan.c.s
+
+.PHONY : sordinamikusan.s
+
+# target to generate assembly for a file
+sordinamikusan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/sordinamikusan.c.s
+.PHONY : sordinamikusan.c.s
+
 sorfelstatikus.obj: sorfelstatikus.c.obj
 
 .PHONY : sorfelstatikus.obj
@@ -196,6 +223,33 @@ sorfelstatikus.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/sorfelstatikus.c.s
 .PHONY : sorfelstatikus.c.s
 
+veremdinamikus.obj: veremdinamikus.c.obj
+
+.PHONY : veremdinamikus.obj
+
+# target to build an object file
+veremdinamikus.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/veremdinamikus.c.obj
+.PHONY : veremdinamikus.c.obj
+
+veremdinamikus.i: veremdinamikus.c.i
+
+.PHONY : veremdinamikus.i
+
+# target to preprocess a source file
+veremdinamikus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/veremdinamikus.c.i
+.PHONY : veremdinamikus.c.i
+
+veremdinamikus.s: veremdinamikus.c.s
+
+.PHONY : veremdinamikus.s
+
+# target to generate assembly for a file
+veremdinamikus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor6.dir\build.make CMakeFiles/labor6.dir/veremdinamikus.c.s
+.PHONY : veremdinamikus.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -208,9 +262,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sordinamikusan.obj
+	@echo ... sordinamikusan.i
+	@echo ... sordinamikusan.s
 	@echo ... sorfelstatikus.obj
 	@echo ... sorfelstatikus.i
 	@echo ... sorfelstatikus.s
+	@echo ... veremdinamikus.obj
+	@echo ... veremdinamikus.i
+	@echo ... veremdinamikus.s
 .PHONY : help
 
 
