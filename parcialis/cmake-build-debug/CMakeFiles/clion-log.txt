@@ -1,0 +1,1 @@
+CMakeLists.txt not found in F:\szilard\egyetem2\adatszerkesalg\dsa_PalSzilard_autC\parcialis Select CMakeLists.txt
