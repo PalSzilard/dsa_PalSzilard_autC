@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\kupac.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\bin\ar.exe cr CMakeFiles\kupac.dir/objects.a @CMakeFiles\kupac.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\kupac.dir/objects.a -Wl,--no-whole-archive  -o kupac.exe -Wl,--out-implib,libkupac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\kupac.dir\linklibs.rsp
