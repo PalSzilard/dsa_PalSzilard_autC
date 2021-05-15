@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor10/dinamikuslista/function.c
+stdlib.h
+-
+stdio.h
+-
+function.h
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor10/dinamikuslista/function.h
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor10/dinamikuslista/function.h
+stdlib.h
+-
+stdio.h
+-
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor10/dinamikuslista/main.c
+stdlib.h
+-
+stdio.h
+-
+function.h
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/labor10/dinamikuslista/function.h
+
