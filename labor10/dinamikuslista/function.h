@@ -19,5 +19,6 @@ Nodetype* Create();
 void insertfront(Nodetype**front, int a,int b, int c );
 void listabejarasSearchMax(Nodetype*front);
 char *numToMonth(int honap);
+void kiir(Nodetype*front);
 
 #endif //DINAMIKUSLISTA_FUNCTION_H

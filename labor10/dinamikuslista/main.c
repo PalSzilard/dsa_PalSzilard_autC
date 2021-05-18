@@ -12,14 +12,16 @@ int main() {
         insertfront(&node, ev, honap, forint);
     }
     fclose(fin);
-    FILE *fout=fopen("ki.txt","w");if(fout==NULL){printf("sikertelen filemegnyitas");return 0;}
-    for(i = 0; i < size; ++i){
-        fprintf(fout,"%i. %s: %i forint %i filler\n",node->info.ev,numToMonth(node->info.honap),
-                node->info.forint/100,node->info.forint%100);
-        node=node->next;
-
-    }printf("\n");
-    fclose(fout);
+//    FILE *fout=fopen("ki.txt","w");if(fout==NULL){printf("sikertelen filemegnyitas");return 0;}
+//    for(i = 0; i < size; ++i){
+//        fprintf(fout,"%i. %s: %i forint %i filler\n",node->info.ev,numToMonth(node->info.honap),
+//                node->info.forint/100,node->info.forint%100);
+//        node=node->next;
+//
+//    }printf("\n");
+//    fclose(fout);
+    kiir(node);
     listabejarasSearchMax(node);
+
     return 0;
 }
