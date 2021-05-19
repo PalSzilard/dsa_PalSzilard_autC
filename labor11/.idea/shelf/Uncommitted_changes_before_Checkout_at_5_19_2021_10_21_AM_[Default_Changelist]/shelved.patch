@@ -1,0 +1,16 @@
+Index: ../labor10/dinamikuslista/cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: May 18 19:36 GTB Daylight Time\r\n----------------------------------------------------------\r\nEnd testing: May 18 19:36 GTB Daylight Time\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../labor10/dinamikuslista/cmake-build-debug/Testing/Temporary/LastTest.log b/../labor10/dinamikuslista/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/../labor10/dinamikuslista/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 9643cc4aa6739ccd6859ed04e15410d36c488250)
++++ b/../labor10/dinamikuslista/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1621407615272)
+@@ -1,3 +1,3 @@
+-Start testing: May 18 19:36 GTB Daylight Time
++Start testing: May 19 10:00 GTB Daylight Time
+ ----------------------------------------------------------
+-End testing: May 18 19:36 GTB Daylight Time
++End testing: May 19 10:00 GTB Daylight Time
