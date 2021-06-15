@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/vizsga/fel1/function.c
+function.h
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/vizsga/fel1/function.h
+
+F:/szilard/egyetem2/adatszerkesalg/dsa_PalSzilard_autC/vizsga/fel1/function.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+math.h
+-
+time.h
+-
+
