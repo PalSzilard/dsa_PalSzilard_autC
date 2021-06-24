@@ -3,7 +3,7 @@
 //
 
 #include "function2.h"
-HEAP *createHeap(int max) {//helyfoglalas
+HEAP *createHEAP(int max) {//helyfoglalas
     HEAP* h=(HEAP*)malloc(sizeof(HEAP) );if(h==NULL){printf("sikertelen helyfoglalas");return 0;}
     h->size=0;
     h->maxSize=max;
@@ -26,10 +26,10 @@ void up(HEAP* h, int i) {//emeles
     }
 }
 HEAP *input(const char* file,HEAP* h,int i){//beolvasas
-    for (int j = 0; j < i; ++j) {
+    for (int j = 1; j <= i; ++j) {
         int id;double time;
         FILE * f=fopen(file,"r");if(f==NULL){printf("sikertelen filemegnyitas");return NULL;}
-       for(int k=0;k<h->maxSize;k++) {
+       for(int k=1;k<=h->maxSize;k++) {
            fscanf(f, "%i%lf", &id, &time);
            insert(h,id,time);
        }
@@ -38,7 +38,7 @@ HEAP *input(const char* file,HEAP* h,int i){//beolvasas
 }
 void outsider(HEAP* h){// se nem idos se nem beteg szamolas
     int seged=0;
-    for (int i = 0; i < h->maxSize; ++i) {
+    for (int i = 1; i <= h->maxSize; ++i) {
         if(h->data[i].ID/10!=9 && h->data[i].ID%10!=0)
             seged++;
     }
